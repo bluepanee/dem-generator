@@ -1,6 +1,11 @@
 # dem-generator: Shitcode Edition
 
-usage:
+Install:
+```
+pip install dem-generator
+```
+
+Usage:
 ```python
 import dem_generator
 from PIL import Image
