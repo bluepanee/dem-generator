@@ -2,7 +2,7 @@
 
 Install:
 ```
-pip install dem-generator
+python setup.py install
 ```
 
 Usage:
