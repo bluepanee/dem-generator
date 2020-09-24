@@ -1,5 +1,4 @@
 # ---------------------------------------------------- #
-# Dem generator by Makw aka https://vk.com/id264444807 #
 #                !!! SHITCODE ALERT !!!                #
 # ---------------------------------------------------- #
 
@@ -8,6 +7,7 @@ import textwrap
 import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
+
 
 class Generator:
     def __init__(self):
@@ -26,8 +26,11 @@ class Generator:
             border_width = round(h * 8 / 100)
             scale = h * 1 / 100
 
-        top_font, top_multiline_text = self.__wrap_text(f"{dir_path}/fonts/times-new-roman.ttf", round(border_width * 1.5), top_text)
-        bottom_font, bottom_multiline_text = self.__wrap_text(f"{dir_path}/fonts/tahoma.ttf", round(border_width * 0.6), bottom_text)
+        top_font, top_multiline_text = self.__wrap_text(f"{dir_path}/fonts/times-new-roman.ttf",
+                                                        round(border_width * 1.5), top_text)
+
+        bottom_font, bottom_multiline_text = self.__wrap_text(f"{dir_path}/fonts/tahoma.ttf",
+                                                              round(border_width * 0.6), bottom_text)
 
         copyright_font = ImageFont.truetype(f"{dir_path}/fonts/fulbo.otf", round(scale))
 
