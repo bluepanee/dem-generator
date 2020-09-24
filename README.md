@@ -2,6 +2,12 @@
 
 Install:
 ```
+git clone https://github.com/bluepanee/dem-generator
+```
+```
+cd dem-generator
+```
+```
 python setup.py install
 ```
 
