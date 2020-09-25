@@ -1,6 +1,7 @@
 # dem-generator: Shitcode Edition
+A simple shitcode-lib for creating demotivators
 
-Install:
+**Install:**
 ```
 git clone https://github.com/bluepanee/dem-generator
 ```
@@ -11,7 +12,7 @@ cd dem-generator
 python setup.py install
 ```
 
-Usage:
+**Usage:**
 ```python
 import dem_generator
 from PIL import Image
